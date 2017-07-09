@@ -1,0 +1,63 @@
+form#main{
+	border:2px solid black;
+	width: 200px;
+    height: 215px;
+}
+input#display{
+	width:182px;
+	margin:5px;
+	height:20px;
+	border:2px solid #546E7A;
+}
+input#num7,
+input#num8,
+input#num9,
+input#num6,
+input#num5,
+input#num4,
+input#num3,
+input#num2,
+input#num1,
+input#num0,
+input#numequal,
+input#numdiv,
+input#numsub,
+input#nummul,
+input#numadd,
+input#nummod,
+input#numback,
+input#numdec
+ {
+    padding: 10px;
+	width: 32px;
+	background-color:#BDBDBD;
+	border-radius: 6px;
+	font-size: 15px;
+	border:2px solid #546E7A;
+	margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 3px;
+}
+}
+
+div#subdiv{
+	margin-left:10px;
+	margin-right:10px;
+}
+input#numclear{
+	padding:10px;
+	width: 69px;
+	background-color:#E57373;
+	border:2px solid #546E7A;
+	border-radius:6px;
+	margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 3px;
+}
+
+h1{
+	text-align: center;
+}
+form{
+	margin: 0 auto;
+}

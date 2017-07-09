@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculator</title>
+<link rel="stylesheet" href="calculator.css" type="text/css"/>
+</head>
+<body>
+<h1>Calculator</h1>
+<form name="calculator" id="main">
+	<input type="text" id="display" placeholder="0"/>
+
+	<div id="subdiv">
+	<input type="button" id="num7" onClick="addToScreen('7');" value="7" onMouseOver="this.style.backgroundColor='#CFD8DC'" onMouseOut="this.style.backgroundColor='#BDBDBD'" />
+	
+	<input type="button" id="num8" onClick="addToScreen('8');" value="8" onMouseOver="this.style.backgroundColor='#CFD8DC'" onMouseOut="this.style.backgroundColor='#BDBDBD'" />
+	
+	<input type="button" id="num9" onClick="addToScreen('9');"value="9" onMouseOver="this.style.backgroundColor='#CFD8DC'" onMouseOut="this.style.backgroundColor='#BDBDBD'" />
+	
+	<input type="button" id="numadd" onClick="addToScreen('+');" value="+" onMouseOver="this.style.backgroundColor='#CFD8DC'" onMouseOut="this.style.backgroundColor='#BDBDBD'"/>
+	
+	<input type="button" id="numdiv" onClick="addToScreen('/');"value="/" onMouseOver="this.style.backgroundColor='#CFD8DC'" onMouseOut="this.style.backgroundColor='#BDBDBD'" />
+	
+	<br/>
+	<input type="button" id="num4" onClick="addToScreen('4');" value="4" onMouseOver="this.style.backgroundColor='#CFD8DC'" onMouseOut="this.style.backgroundColor='#BDBDBD'"/>
+	
+	<input type="button" id="num5" onClick="addToScreen('5');" value="5" onMouseOver="this.style.backgroundColor='#CFD8DC'" onMouseOut="this.style.backgroundColor='#BDBDBD'"/>
+	
+	<input type="button" id="num6" onClick="addToScreen('6');"value="6" onMouseOver="this.style.backgroundColor='#CFD8DC'" onMouseOut="this.style.backgroundColor='#BDBDBD'"/>
+	
+	<input type="button" id="numsub" onClick="addToScreen('-');" value="-" onMouseOver="this.style.backgroundColor='#CFD8DC'" onMouseOut="this.style.backgroundColor='#BDBDBD'"/>
+	
+	<input type="button" id="nummod" onClick="addToScreen('%');"value="%" onMouseOver="this.style.backgroundColor='#CFD8DC'" onMouseOut="this.style.backgroundColor='#BDBDBD'"/>
+	<br/>
+	<input type="button" id="num3" onClick="addToScreen('3');"value="3" onMouseOver="this.style.backgroundColor='#CFD8DC'" onMouseOut="this.style.backgroundColor='#BDBDBD'"/>
+	
+	<input type="button" id="num2" onClick="addToScreen('2');"value="2" onMouseOver="this.style.backgroundColor='#CFD8DC'" onMouseOut="this.style.backgroundColor='#BDBDBD'"/>
+	
+	<input type="button" id="num1" onClick="addToScreen('1');"value="1" onMouseOver="this.style.backgroundColor='#CFD8DC'" onMouseOut="this.style.backgroundColor='#BDBDBD'"/>
+	
+	<input type="button" id="nummul" onClick="addToScreen('*');"value="*" onMouseOver="this.style.backgroundColor='#CFD8DC'" onMouseOut="this.style.backgroundColor='#BDBDBD'"/>
+	
+	<input type="button" id="numback" onClick="deleteNumbers();"value="<-" onMouseOver="this.style.backgroundColor='#CFD8DC'" onMouseOut="this.style.backgroundColor='#BDBDBD'" />
+	<br/>
+	<input type="button"id="num0" onClick="addToScreen('0');"value="0" onMouseOver="this.style.backgroundColor='#CFD8DC'" onMouseOut="this.style.backgroundColor='#BDBDBD'" />
+	
+	<input type="button"id="numequal" onClick="displayResults();"value="=" onMouseOver="this.style.backgroundColor='#CFD8DC'" onMouseOut="this.style.backgroundColor='#BDBDBD'"/>
+	
+	<input type="button"id="numdec" onClick="addToScreen('.');"value="." onMouseOver="this.style.backgroundColor='#CFD8DC'" onMouseOut="this.style.backgroundColor='#BDBDBD'" />
+	
+	<input type="button" id="numclear" onClick="clearDisplay();"onMouseOver="this.style.backgroundColor='#EF9A9A'" onMouseOut="this.style.backgroundColor='#E57373'" value="clear"/>
+	</div>
+</form>
+
+<script src="calculator.js" src="text/javascript"></script>
+</body>
+</html>
